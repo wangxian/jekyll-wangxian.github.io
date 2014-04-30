@@ -3,7 +3,9 @@
 layout: post
 title: 永久山地车
 comments: true
-categorie: life
+category: weeklog
+tags: 
+  - weeklog
 
 ---
 

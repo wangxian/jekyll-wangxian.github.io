@@ -6,7 +6,8 @@ comments: true
 category: weeklog
 tags: 
   - JavaScript
-  - angular.js
+  - Angular.js
+  - weeklog
   
 ---
 

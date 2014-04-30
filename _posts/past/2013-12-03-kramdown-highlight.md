@@ -4,6 +4,9 @@ layout: post
 title: "jekyll kramdown高亮的问题"
 comments: true
 category: weeklog
+tags: 
+  - weeklog
+  - jekyll
 
 ---
 

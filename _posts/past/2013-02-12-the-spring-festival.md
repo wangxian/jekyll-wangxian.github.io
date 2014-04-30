@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 2013年春节随想
-category: life
+category: weeklog
 comments: true
-tags: ["life"]
+tags: ["weeklog"]
 ---
 
 时间过的飞快，转眼间，一年又过去了，又长大了一岁，遥想2013，肯定是一个非常忙碌的一年，

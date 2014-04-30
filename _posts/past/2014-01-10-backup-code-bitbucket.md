@@ -1,9 +1,12 @@
 ---
 
 layout: post
-title: "Backup your Private Code"
+title: "backup your private code"
 comments: true
 category: weeklog
+tags: 
+  - weeklog
+  - 开发
 
 ---
 

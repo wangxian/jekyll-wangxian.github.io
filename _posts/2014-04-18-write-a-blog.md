@@ -4,9 +4,7 @@ comments: true
 title: "写文字"
 category: ""
 tags: 
-  - 文字
-  - 写作
-  - 博客
+  - jekyll
 ---
 
 ![](http://ww4.sinaimg.cn/large/493b785atw1efmhe1u28jj20m80dw768.jpg)

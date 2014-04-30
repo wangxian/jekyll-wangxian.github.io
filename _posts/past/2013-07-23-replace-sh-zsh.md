@@ -3,7 +3,9 @@
 layout: post
 title: 使用zsh替换bash shell
 comments: true
-categorie: osx
+categorie: OSX
+tags:
+  - OSX
 
 ---
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e6wqvzgfynj20j807djsd.jpg)

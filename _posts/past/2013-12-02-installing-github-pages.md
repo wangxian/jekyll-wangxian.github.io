@@ -1,9 +1,13 @@
 ---
 
 layout: post
-title: "Installing Github Pages"
+title: "installing github pages"
 comments: true
 category: weeklog
+tags: 
+  - weeklog
+  - jekyll
+  - Github
 
 ---
 

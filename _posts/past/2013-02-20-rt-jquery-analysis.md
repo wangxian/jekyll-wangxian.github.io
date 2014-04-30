@@ -5,6 +5,7 @@ category: JavaScript
 comments: false
 tags: 
   - JavaScript
+  - JQuery
 ---
 
 

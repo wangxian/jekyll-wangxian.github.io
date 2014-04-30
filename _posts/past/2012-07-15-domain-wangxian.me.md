@@ -2,8 +2,8 @@
 layout: post
 title: "本站启用wangxian.me域名！"
 description: "启用新的域名，wangxian.me"
-category: 其他
-tags: ["域名"]
+category: jekyll
+tags: ["jekyll"]
 ---
 
   后记，老博客：n.loopx.cn停止使用了，里面写的百篇博客转移到了 <http://yiguozhou.sinaapp.com>

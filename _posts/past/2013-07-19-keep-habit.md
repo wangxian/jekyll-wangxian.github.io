@@ -3,7 +3,9 @@
 layout: post
 title: 保持习惯与坚持
 comments: true
-categorie: life
+category: weeklog
+tags: 
+  - weeklog
 
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "ZenCoding->cmmet值得升级！"
 category: "devtools"
 comments: true
-tags: ["mobile", "sublime"]
+tags: ["开发", "Sublime"]
 ---
 
 hi, 朋友!

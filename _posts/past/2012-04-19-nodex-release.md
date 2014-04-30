@@ -2,7 +2,7 @@
 layout: post
 title: NodeX 预览版 发布了！
 category: Node.js
-tags: ['JavaScript', 'Node.js', 'NodeX']
+tags: ['JavaScript', 'Node.js']
 ---
 
 经过不断的折腾，终于nodex 预览版发布了，

@@ -4,6 +4,8 @@ layout: post
 title: "A go development tools - gorun"
 comments: true
 category: "go"
+tags:
+  - Go
 
 ---
 

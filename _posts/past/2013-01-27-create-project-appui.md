@@ -3,7 +3,7 @@ layout: post
 title: "AppUI -- A Mobile UI Project"
 category: "mobile"
 comments: true
-tags: ["mobile"]
+tags: ["开发"]
 ---
 
 如果你用过jq.ui，你就会非常的郁闷他的结构，东西本来是一个非常不错的的好东西，也非常流畅。

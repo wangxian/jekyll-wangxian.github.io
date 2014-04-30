@@ -3,7 +3,9 @@
 layout: post
 title: 修改jekyll configure
 comments: true
-categorie: jekyll
+category: jekyll
+tags:
+  - jekyll
 
 ---
 

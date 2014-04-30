@@ -4,6 +4,9 @@ layout: post
 title: "Golang package manage VS NPM"
 comments: true
 category: weeklog
+tags: 
+  - weeklog
+  - Go
 
 ---
 
