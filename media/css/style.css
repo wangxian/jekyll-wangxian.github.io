@@ -6,7 +6,7 @@
 body{font-size:14px;font-family:"telexregular","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#555;background-color:#f9f9f9;}
 ol,ul{list-style-position:inside;}
 li{padding:.2em 0;}
-hr{width:4em;border:none;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
+hr{width:62%;border:none;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 .center{text-align:center;}
 ::selection{color:#fff;background-color:#333;}
 a,header #header h1 a,article .title a,article .meta .tags a,article .divider a{text-decoration:none;color:#bb2222;}
