@@ -2,5 +2,5 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(/media/fonts/ubuntu-300.woff) format('woff');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(ubuntu-300.woff) format('woff');
 }
