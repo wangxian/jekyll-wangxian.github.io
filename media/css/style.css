@@ -74,6 +74,7 @@ footer a:hover,footer header #header h1 a:hover,header #header h1 footer a:hover
   article { margin-top:10px; }
   article .post img { width: 100%; }
   #content { width: 90%; }
+  h1, h2 { font-size: 1em; }
 
   ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
     padding: .2em 0 .2em .5em;
