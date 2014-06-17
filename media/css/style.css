@@ -11,12 +11,12 @@ hr{width:4em;border:none;border-top:1px dashed #d0d0d0;border-bottom:1px dashed 
 ::selection{color:#fff;background-color:#333;}
 a,header #header h1 a,article .title a,article .meta .tags a,article .divider a{text-decoration:none;color:#bb2222;}
 a:hover,header #header h1 a:hover,article .title a:hover,article .meta .tags a:hover,article .divider a:hover{color:#dd1144;}
-blockquote,pre code{background-color:#f8f8f8;padding:0 1em;border:1px dashed #eee !important;border-color:#e0e0e0 !important;font-size:13px;line-height:1.6;display:block;overflow:auto;}
-code{background-color:#f8f8f8;padding:2px 5px;border:1px dashed #e0e0e0;font-family:"Ubuntu",monospace;}
+blockquote,pre code{background-color:#f8f8f8;padding:0 1em;font-size:13px;line-height:1.6;display:block;overflow:auto;}
+code{background-color:#fff;padding:2px 5px;border:1px dashed #e0e0e0;font-family:"Ubuntu",monospace;}
 h1,h2{font-size:1.4em;}
 time{font-family:"Ubuntu",monospace;}
 
-header{width:680px;margin:0 auto;text-align:justify;margin:3em auto;}
+header{width:680px;text-align:justify;margin:3em auto;}
 header:after{content:'';width:100%;display:inline-block;}
 header #header{display:inline-block;position:relative;top:1em;}
 header #header h1{font-family:"telexregular","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
@@ -66,20 +66,23 @@ footer a:hover,footer header #header h1 a:hover,header #header h1 footer a:hover
 #like-wrapper .like-button,#like-wrapper .unlike-button{font-family:"FontAwesome";padding-right:5px;}
 #like-wrapper .like-button:hover{color:#dd1144;}
 
-/*@media screen and (max-width:768px) {
-
-}*/
-
-@media screen and (max-width:320px) {
-  header { width: 300px; margin: 0 auto;}
+@media screen and (max-width:680px) {
+  header { width: 90%; margin: 0 auto; }
   header #header { top: 0.5em; }
   header #header h1 a { font-size: 24px; }
-  footer { width: 300px; }
+  footer { width: 90%; }
   article { margin-top:10px; }
-  article .post img { width: 300px; }
-  #content { width: 300px; }
+  article .post img { width: 100%; }
+  #content { width: 90%; }
 
   ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
     padding: .2em 0 .2em .5em;
   }
+}
+
+@media screen and (max-width:320px) {
+  header { width: 300px; }
+  footer { width: 300px; }
+  article .post img { width: 300px; }
+  #content { width: 300px; }
 }
