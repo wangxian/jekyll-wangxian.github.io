@@ -15,15 +15,15 @@ navigations:
   - title: Tags
     class: fa fa-tags
     href: /tags.html
+  - title: MyLinks
+    class: fa fa-link
+    href: /links.html
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Gallery
+  - title: Lofter
     class: fa fa-film
     href: http://xian366.lofter.com/
-  - title: Blogroll
-    class: fa fa-link
-    href: /links.html
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
