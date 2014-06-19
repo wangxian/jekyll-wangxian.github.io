@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Sea.js支持coffee插件"
+title: "尝试让Sea.js支持CoffeeScript"
 tags:
   - JavaScript
 

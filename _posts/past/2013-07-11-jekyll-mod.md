@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 修改jekyll configure
+title: "修改jekyll配置"
 comments: true
 category: jekyll
 tags:

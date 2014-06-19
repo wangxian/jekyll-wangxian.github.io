@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "jekyll kramdown高亮的问题"
+title: "jekyll kramdown highlight"
 comments: true
 category: weeklog
 tags: 

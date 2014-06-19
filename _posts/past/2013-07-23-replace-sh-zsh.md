@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 使用zsh替换bash shell
+title: "使用zsh替换bash shell"
 comments: true
 categorie: OSX
 tags:

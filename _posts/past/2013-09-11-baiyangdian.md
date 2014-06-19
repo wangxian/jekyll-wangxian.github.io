@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "雨来和嘎子的老家 - 白洋淀"
+title: "嘎子老家"
 comments: true
 category: 游记
 tags:

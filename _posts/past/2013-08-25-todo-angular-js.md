@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 实战AngularJS开发
+title: "实战AngularJS开发"
 comments: true
 category: weeklog
 tags: 

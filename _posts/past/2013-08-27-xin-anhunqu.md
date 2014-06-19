@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "读《新安魂曲》有感"
+title: "读「新安魂曲」有感"
 comments: true
 category: weeklog
 tags: 
