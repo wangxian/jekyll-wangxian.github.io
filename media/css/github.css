@@ -5,7 +5,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 */
 
 .hljs {
-  display: block; padding:.6em 1.2em;
+  display: block; padding:1em;
   color: #333;
 }
 /*pre code {border-left:5px solid #E0E0E0;}*/
