@@ -12,7 +12,9 @@ hr{width:62%;border:none;border-top:1px dashed #d0d0d0;border-bottom:1px dashed 
 ::selection{color:#fff;background-color:#333;}
 a,header #header h1 a,article .title a,article .meta .tags a,article .divider a{text-decoration:none;color:#bb2222;}
 a:hover,header #header h1 a:hover,article .title a:hover,article .meta .tags a:hover,article .divider a:hover{color:#dd1144;}
-blockquote,pre code{background-color:#fff;padding:0 1em;font-size:13px;line-height:1.6;display:block;overflow:auto;}
+blockquote,pre code{padding:0 1em;font-size:13px;line-height:1.6;display:block;overflow:auto;}
+pre code { background-color:#e0e0e0; }
+blockquote { background-color: #fff; border-left: .5em solid #E0E0E0; }
 code{padding:2px 5px;font-family:"Ubuntu",monospace;}
 h1,h2{font-size:1.4em;}
 time{font-family:"Ubuntu",monospace;}
