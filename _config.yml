@@ -1,5 +1,5 @@
 markdown: kramdown
-pygments: true
+highlighter: true
 permalink: /:year/:month/:title.html
 
 name: "wangxian.me"
