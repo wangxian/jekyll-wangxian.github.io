@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 *{margin:0;padding:0;}
-body{font-size:14px;font-family:"telexregular","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#555;background-color:#f9f9f9;}
+body{font-size:14px;font-family:"telexregular","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#666;background-color:#f9f9f9;}
 ol,ul{list-style-position:inside;}
-li{padding:.2em 0;}
+/*li{padding:.2em 0;}*/
 em{color:#999;}
-hr{width:62%;border:none;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;margin-bottom:-10px;}
+hr{width:62%;border:none;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;margin: 18px 0 8px 0;}
 .center{text-align:center;}
 ::selection{color:#fff;background-color:#333;}
 a,header #header h1 a,article .title a,article .meta .tags a,article .divider a{text-decoration:none;color:#bb2222;}
@@ -29,6 +29,10 @@ header nav a,header nav #header h1 a,header #header h1 nav a,header nav article 
 #content{width:680px;margin:0 auto;line-height:2em;}
 #content .main-listing{margin-bottom:2em;}
 
+section.post h1 { margin: 18px 0 10px 0; }
+section.post h2 { margin: 14px 0 8px 0; }
+section.post li { color: #888; }
+
 ul.listing{margin-top:1em;}
 ul.listing li{list-style-type:none;padding:0;}
 ul.listing li.listing-item a,ul.listing li.listing-item header #header h1 a,header #header h1 ul.listing li.listing-item a{padding:.2em 0 .2em 2em;}
@@ -37,7 +41,7 @@ ul.listing li.listing-item:hover{background-color:#f9f9f9;}
 ul.listing li.listing-seperator{font-family:"telexregular","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
 ul.listing li.listing-seperator:before{content:"⭠ ";color:#ccc;}
 article{margin:2em 0;}
-article p{padding:.7em 0;}
+article p {padding:.7em 0; line-height: 22px; }
 article .title{font-family:"telexregular","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
 article .title header #header h1 a,header #header h1 article .title a,article .title a,article .title .meta .tags a,article .meta .tags .title a{color:#777;}
 article .meta{display:block;overflow:auto;margin-top:-.5em;font-size:.9em;}
