@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ZenCoding->cmmet值得升级！"
+title: "ZenCoding到Emmet值得升级！"
 category: "devtools"
 comments: true
 tags: ["开发", "Sublime"]
