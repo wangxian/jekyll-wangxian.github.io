@@ -1,7 +1,7 @@
 markdown: kramdown
-highlighter: true
-permalink: /:year/:month/:title.html
+highlighter: "highlighter"
 
+permalink: /:year/:month/:title.html
 name: "wangxian.me"
 
 author: "wangxian"
