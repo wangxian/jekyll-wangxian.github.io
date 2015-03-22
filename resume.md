@@ -1,9 +1,13 @@
 ---
-title: 王见的个人简历
+title: 
 layout: page
 ---
 
-<style>td em { font-size: 12px;}</style>
+<style>
+td em { font-size: 12px;}
+.spt { clear: both; height: 10px; }
+ul > li { margin-left: 1em; }
+</style>
 <h1 style="margin:50px 0 40px 0;font-size:28px; text-align:center;">王见的个人简历</h1>
 
 ## 个人信息
@@ -14,7 +18,7 @@ layout: page
     <td>性别：男</td>
   </tr>
   <tr>
-  	<td>学历：专科</td>
+  	<td>学历：本科</td>
     <td>出生年月：1985年10月</td>
   </tr>
   <tr>
@@ -22,7 +26,7 @@ layout: page
     <td>毕业时间：2007年07月</td>
   </tr>
   <tr>
-    <td>联系电话：18611619885</td>
+    <td>联系电话：186-1161-9885</td>
     <td>E-mail：wo@wangxian.me</td>
   </tr>
   <tr>
@@ -42,7 +46,7 @@ layout: page
     <td>工作性质：全职</td>
   </tr>
   <tr>
-    <td>到岗时间：--</td>
+    <td>到岗时间：2周以内</td>
     <td>工作地点：北京</td>
   </tr>
   <tr>
@@ -54,28 +58,26 @@ layout: page
 
 ## 技能简述
 
-- 6年PHP开发经验
-- 高效易用企业PHP开发框架ePHP主要开发者（已为多个企业项目提供支持）
-- 获得新浪SAE高级开发者证书
-- 前端开发WEBAPP；Javascript\CSS\HTML5，网站前端及WEBAPP开发经验
+- 6年PHP开发经验；
+- 高效易用企业PHP开发框架ePHP主要开发者；（已为多个企业项目提供支持）
+- 获得新浪SAE高级开发者证书；
+- 前端开发WEBAPP；JavaScript\CSS\HTML5，网站前端及WEBAPP开发经验；
 - 手机开发; PhoneGap+HTML5 封包iOS 和 Android 应用(jqmobi,sencha)
 - Node.js经验; 封装开发框架nodex（WEB框架）
-- Python开发
-- Golang开发
-- 服务器运维经验
+- Python开发经验；
+- Golang开发经验；
+- 服务器运维经验；
 
 ## 工作经历
 
 + 2007.02 ~ 2007.07 秦皇岛日报社 房地产
   - 工作内容，本地分类信息网站开发
-  
-+ 2007.07 ~ 2008.12 迪信通（新业务部）
-  - 工作内容，主管公司增值业务系统开发
-  
-+ 2008.12 ~ 2009.10 迪信通（信息中心ERP）
-  - 增值业务系统维护
+    
++ 2007.07 ~ 2009.10 迪信通（新业务部，后来合并到「信息中心ERP」部门）
+  - 主管线下软件销售系统开发
+  - 新增值业务系统开发
   - ORACLE报表开发
-  
+    
 + 2009.10 ~ 2010.10 中文在线
   - PHP后台开发；图书管理系统开发；移动图书推广技术支持
   
@@ -83,18 +85,23 @@ layout: page
   - WAP微博开发；将WAP网底层进行重构，优化效率。
   - 一首歌项目，后台开发
 
-+ 2011.9 – 至今 博音伟业科技有限公司 友宝在线
-  - 负责售货机界面与交互开发; 使用seajs, backbone, jquery等；<a href="/assets/img/webapp-1.png" target="_blank">展示一</a> <a href="/assets/img/webapp-2.png" target="_blank">展示二</a>
++ 2011.9 – 至今 友宝
+  - 开放API(供手机客户端、WEB、WAP等使用)架构与开发。
   - 负责公司WEB、WAP网站的开发。（www.ubox.cn; wap.ubox.cn; m.ubox.cn）
-  - 手机客户端前期API架构与开发。
+  - 负责售货机前端界面架构与开发。使用技术seajs, backbone.js, underscore.js等。
+  - 市场项目技术顾问。
 
-## 个人项目展示
+## 个人开源项目展示
 
 + ePHP高效PHP开发框架
-  - Homepage: http://ephp.sinaapp.com/
-  - Github URL: https://github.com/wangxian/ePHP
+  - Homepage: <http://ephp.sinaapp.com/>
+  - Github URL: <https://github.com/wangxian/ePHP>
   - 已被多个项目采用
-  
+
++ A frontend MVVM framework 
+  - Github: <https://github.com/wangxian/backbone.vm>
+  - 前端 MVVM 开发框架，依赖Backbone.js
+
 + Orange <https://github.com/wangxian/orange>
   - 前端开发工具；功能：监控文件变化，自动刷新浏览器，支持服务器代理；
   - 关键技术：Go, fsnotify
