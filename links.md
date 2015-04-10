@@ -3,6 +3,7 @@ title: Links
 layout: page
 ---
 
+[生成二维码](/misc/qrcode.html)  
 [获取设备分辨率](/misc/screen.html)  
 [Blog](/)  
 [Weibo](http://weibo.com/xian366)  

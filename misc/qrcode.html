@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>qrcode</title>
+  <style type="text/css">
+  body { margin: 50px auto; width: 600px; }
+  #input-qrcode { width:100%; color: #999; -webkit-box-sizing: border-box; padding: 10px; margin-bottom: 40px; border:2px solid #999; font-size: 22px; }
+  @media screen and (max-width:600px) {
+    body { width: auto; }
+    #input-qrcode { width: 90%; margin-left: 5%; }
+  }
+  #qrcode { text-align: center; }
+  </style>
+</head>
+<body>
+
+<textarea id="input-qrcode" placeholder="请输入二维码内容"></textarea>
+<div id="qrcode"></div>
+
+<script src="http://cdn.staticfile.org/jquery/2.1.0/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js
+"></script>
+<script>
+function utf16to8(str) {
+  var out, i, len, c;
+  out = "";
+  len = str.length;
+  for(i = 0; i < len; i++) {
+    c = str.charCodeAt(i);
+    if ((c >= 0x0001) && (c <= 0x007F)) {
+      out += str.charAt(i);
+    } else if (c > 0x07FF) {
+      out += String.fromCharCode(0xE0 | ((c >> 12) & 0x0F));
+      out += String.fromCharCode(0x80 | ((c >>  6) & 0x3F));
+      out += String.fromCharCode(0x80 | ((c >>  0) & 0x3F));
+    } else {
+      out += String.fromCharCode(0xC0 | ((c >>  6) & 0x1F));
+      out += String.fromCharCode(0x80 | ((c >>  0) & 0x3F));
+    }
+  }
+  return out;
+}
+$("#input-qrcode").on("input", function(e){
+  $("#qrcode").empty().qrcode({
+    width: 300,
+    height: 300,
+    background: "white",
+    foreground: "#3DAE72",
+    text: utf16to8(e.target.value)
+  });
+});
+
+</script>
+</body>
+</html>
