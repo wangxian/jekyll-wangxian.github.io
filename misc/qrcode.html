@@ -4,19 +4,20 @@
   <meta charset="UTF-8">
   <title>qrcode</title>
   <style type="text/css">
-  body { margin: 50px auto; width: 600px; }
-  #input-qrcode { width:100%; color: #999; -webkit-box-sizing: border-box; padding: 10px; margin-bottom: 40px; border:2px solid #999; font-size: 22px; }
+  body { padding-top: 40px; }
+  #input-qrcode { width:50%; margin: 0 auto; color: #999; display: block; -webkit-box-sizing: border-box; padding: 10px; margin-bottom: 40px; border:2px solid #999; font-size: 22px; }
   @media screen and (max-width:600px) {
     body { width: auto; }
     #input-qrcode { width: 90%; margin-left: 5%; }
   }
-  #qrcode { text-align: center; }
+  #qrcode { text-align: center; margin-left: -40px; }
+  #qrcode canvas { margin-left: 40px; margin-bottom: 40px; }
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
 
-<textarea id="input-qrcode" placeholder="请输入二维码内容"></textarea>
+<textarea id="input-qrcode" placeholder="请输入二维码内容, 回车可生成多张二维码"></textarea>
 <div id="qrcode"></div>
 
 <script src="http://cdn.staticfile.org/jquery/2.1.0/jquery.min.js"></script>
@@ -42,14 +43,23 @@ function utf16to8(str) {
   }
   return out;
 }
+
+var qrcode = $("#qrcode");
 $("#input-qrcode").on("input", function(e){
-  $("#qrcode").empty().qrcode({
-    width: 300,
-    height: 300,
-    background: "white",
-    foreground: "#3DAE72",
-    text: utf16to8(e.target.value)
+  qrcode.empty();
+
+  var txt = e.target.value;
+  var lines = txt.split('\n');
+  lines.forEach(function(v){
+    qrcode.qrcode({
+      width: 280,
+      height: 280,
+      background: "white",
+      foreground: "#3DAE72",
+      text: utf16to8(v.trim())
+    });
   });
+
 });
 
 </script>
