@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "支持站内搜索"
+title: "Support site search"
 tags:
   - google
 ---

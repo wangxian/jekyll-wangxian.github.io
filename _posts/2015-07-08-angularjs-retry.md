@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "再遇AngularJS"
+title: "AngularJS retry"
 category: "weeklog"
 tags: 
   - 
