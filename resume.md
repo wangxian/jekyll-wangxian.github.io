@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 layout: page
 ---
 
@@ -58,7 +58,8 @@ ul > li { margin-left: 1em; }
 
 ## 技能简述
 
-- 6年PHP开发经验；
+- 7年PHP开发经验；
+- 6年前端开发经验；
 - 高效易用企业PHP开发框架ePHP主要开发者；（已为多个企业项目提供支持）
 - 获得新浪SAE高级开发者证书；
 - 前端开发WEBAPP；JavaScript\CSS\HTML5，网站前端及WEBAPP开发经验；
@@ -72,24 +73,29 @@ ul > li { margin-left: 1em; }
 
 + 2007.02 ~ 2007.07 秦皇岛日报社 房地产
   - 工作内容，本地分类信息网站开发
-    
+
 + 2007.07 ~ 2009.10 迪信通（新业务部，后来合并到「信息中心ERP」部门）
   - 主管线下软件销售系统开发
   - 新增值业务系统开发
   - ORACLE报表开发
-    
-+ 2009.10 ~ 2010.10 中文在线
+
++ 2009.10 ~ 2010.8 中文在线
   - PHP后台开发；图书管理系统开发；移动图书推广技术支持
-  
-+ 2009.10 ~ 2011.05 博音伟业科技有限公司 推乐网
+
++ 2009.8 ~ 2011.05 博音伟业科技有限公司 推乐网
   - WAP微博开发；将WAP网底层进行重构，优化效率。
   - 一首歌项目，后台开发
 
-+ 2011.9 – 至今 友宝
++ 2011.9 – 2015.3 友宝
   - 开放API(供手机客户端、WEB、WAP等使用)架构与开发。
   - 负责公司WEB、WAP网站的开发。（www.ubox.cn; wap.ubox.cn; m.ubox.cn）
   - 负责售货机前端界面架构与开发。使用技术seajs, backbone.js, underscore.js等。
   - 市场项目技术顾问。
+
++ 2015.3 – 至今 悦行天下（友宝）
+  - 负责用户端（前端）（m.yees.com.cn; wx.yees.com.cn）
+  - 用户端后端（微信系统及WAP下单等）
+  - 开放API(客户端及渠道第三方使用)
 
 ## 个人开源项目展示
 
@@ -98,7 +104,7 @@ ul > li { margin-left: 1em; }
   - Github URL: <https://github.com/wangxian/ePHP>
   - 已被多个项目采用
 
-+ A frontend MVVM framework 
++ A frontend MVVM framework
   - Github: <https://github.com/wangxian/backbone.vm>
   - 前端 MVVM 开发框架，依赖Backbone.js
 
@@ -114,25 +120,25 @@ ul > li { margin-left: 1em; }
 
 + 网站发布工具 <https://github.com/wangxian/publish-web>
   - 把网站发布到正式服务器
-  - 关键技术：Node.js+CoffeeScript+shelljs+commander  
+  - 关键技术：Node.js+CoffeeScript+shelljs+commander
 
 + mytodo <https://github.com/wangxian/mytodo>
   - A todo WEBAPP, 添加，修改，删除待办事项；
   - 关键技术：Nodejs+CoffeeScript+Express3+Jade+MongoDB+mongoskin+jQuery+Underscore+Backbone
-  - DEMO URL: <http://mytodo.wangxian.me/> (username:admin,passwd:wx)  
-  
-+ AppUI <https://github.com/wangxian/appui>  
+  - DEMO URL: <http://mytodo.wangxian.me/> (username:admin,passwd:wx)
+
++ AppUI <https://github.com/wangxian/appui>
   - Hybird WEBAPP UI library, 基于jqui美化
   - DEMO URL：<http://wangxian.me/appui/> (使用手机模拟器打开效果更好)
 
 + xchelp <https://github.com/wangxian/app-xchelp>
   - 修车帮客户端
   - 基于jqmobi+jqui+seajs+backbone, 使用mobin打包
- 
+
 + cnbetarss <https://github.com/wangxian/cnbetarss>
   - cnBeta阅读器
   - 使用jqui作为界面显示，使用PhoneGap封包；
-  
+
 + angularjs-todo <https://github.com/wangxian/angularjs-todo>
   - A todo WEBAPP, 添加，修改，删除待办事项；
   - 关键技术：AngularJS+JSON3，部署于github pages
@@ -152,4 +158,4 @@ ul > li { margin-left: 1em; }
 
 
 
-     
+
