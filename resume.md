@@ -59,7 +59,7 @@ ul > li { margin-left: 1em; }
 ## 技能简述
 
 - 7年PHP开发经验；
-- 6年前端开发经验；
+- 6年前端开发经验；(前后端时间有叠加)
 - 高效易用企业PHP开发框架ePHP主要开发者；（已为多个企业项目提供支持）
 - 获得新浪SAE高级开发者证书；
 - 前端开发WEBAPP；JavaScript\CSS\HTML5，网站前端及WEBAPP开发经验；
