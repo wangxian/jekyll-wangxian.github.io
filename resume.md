@@ -92,7 +92,7 @@ ul > li { margin-left: 1em; }
   - 负责售货机前端界面架构与开发。使用技术seajs, backbone.js, underscore.js等。
   - 市场项目技术顾问。
 
-+ 2015.3 – 至今 悦行天下（友宝）
++ 2015.3 – 至今 悦行天下（友宝投资）
   - 负责用户端（前端）（m.yees.com.cn; wx.yees.com.cn）
   - 用户端后端（微信系统及WAP下单等）
   - 开放API(客户端及渠道第三方使用)
